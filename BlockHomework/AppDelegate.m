@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+typedef void (^blockWithoutArgAndParam)(void);
+typedef void (^blockWithArg)(NSString*);
+
 @interface AppDelegate ()
 
 @end
@@ -17,7 +20,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // level 1
+    void (^blockWithoutArgAndParam)(void);  // def
+    blockWithoutArgAndParam = ^{
+        NSLog(@"blockWithoutArgAndParam");  // init (def and init can be implement in 1 step)
+    };
+    blockWithoutArgAndParam();              // call
+    
+    void(^blockWithArg)(NSString*);
+    
+    blockWithArg = ^(NSString* str) {
+        NSLog(@"%@", str);
+    };
+    
+    blockWithArg(@"Hello block with param");
+    
+    blockWithArg =^ (NSString* tempStr) {
+        NSLog(@"%@", tempStr);
+    };
+    
+    blockWithArg(@"Hello block with param via typedef");
+    
+    [self testBlockMethod:^{
+        NSLog(@"Block");
+    }];
+    
     return YES;
+}
+
+- (void) testBlockMethod:(void(^)(void)) testBlock {
+    testBlock();
+    NSLog(@"Block via method");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
