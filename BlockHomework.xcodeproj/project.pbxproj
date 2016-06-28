@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78A2FE761D22F83400188511 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A2FE751D22F83400188511 /* Student.m */; };
 		78F81E0A1D22CFCC00E52528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F81E091D22CFCC00E52528 /* main.m */; };
 		78F81E0D1D22CFCC00E52528 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F81E0C1D22CFCC00E52528 /* AppDelegate.m */; };
 		78F81E101D22CFCC00E52528 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F81E0F1D22CFCC00E52528 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78A2FE741D22F83400188511 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		78A2FE751D22F83400188511 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		78F81E051D22CFCC00E52528 /* BlockHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F81E091D22CFCC00E52528 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78F81E0B1D22CFCC00E52528 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 			children = (
 				78F81E0B1D22CFCC00E52528 /* AppDelegate.h */,
 				78F81E0C1D22CFCC00E52528 /* AppDelegate.m */,
+				78A2FE741D22F83400188511 /* Student.h */,
+				78A2FE751D22F83400188511 /* Student.m */,
 				78F81E0E1D22CFCC00E52528 /* ViewController.h */,
 				78F81E0F1D22CFCC00E52528 /* ViewController.m */,
 				78F81E111D22CFCC00E52528 /* Main.storyboard */,
@@ -273,6 +278,7 @@
 				78F81E101D22CFCC00E52528 /* ViewController.m in Sources */,
 				78F81E0D1D22CFCC00E52528 /* AppDelegate.m in Sources */,
 				78F81E0A1D22CFCC00E52528 /* main.m in Sources */,
+				78A2FE761D22F83400188511 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +502,7 @@
 				78F81E341D22CFCC00E52528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78F81E351D22CFCC00E52528 /* Build configuration list for PBXNativeTarget "BlockHomeworkTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				78F81E371D22CFCC00E52528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78F81E381D22CFCC00E52528 /* Build configuration list for PBXNativeTarget "BlockHomeworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				78F81E3A1D22CFCC00E52528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

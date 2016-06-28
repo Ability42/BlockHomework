@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Student.h"
 
 typedef void (^blockWithoutArgAndParam)(void);
 typedef void (^blockWithArg)(NSString*);
@@ -45,6 +46,50 @@ typedef void (^blockWithArg)(NSString*);
     [self testBlockMethod:^{
         NSLog(@"Block");
     }];
+    
+    // level 2
+    
+    Student* student1 = [[Student alloc] init];
+    student1.firstName = @"Frank";
+    student1.lastName = @"Underwood";
+    
+    Student* student2 = [[Student alloc] init];
+    student2.firstName = @"Damion";
+    student2.lastName = @"Murraylar";
+    
+    Student* student3 = [[Student alloc] init];
+    student3.firstName = @"Morgan";
+    student3.lastName = @"Latson";
+    
+    Student* student4 = [[Student alloc] init];
+    student4.firstName = @"Rolando";
+    student4.lastName = @"Lanning";
+    
+    Student* student5 = [[Student alloc] init];
+    student5.firstName = @"Caprice";
+    student5.lastName = @"Latson";
+    
+    Student* student6 = [[Student alloc] init];
+    student6.firstName = @"Nida";
+    student6.lastName = @"Bence";
+    
+    Student* student7 = [[Student alloc] init];
+    student7.firstName = @"Clar";
+    student7.lastName = @"Underwood";
+
+    NSArray* classRoom = [[NSArray alloc] initWithObjects:student1, student2, student3, student4, student5, student6, student7, nil];
+    
+    NSArray* sortedClassRoom = [classRoom sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+        if ([[obj1 lastName] isEqualToString:[obj2 lastName]]) {
+            return [[obj1 firstName] compare:[obj2 firstName]];
+        } else {
+            return [[obj1 lastName] compare:[obj2 lastName]];
+        }
+    }];
+    
+    for (Student* fellow in sortedClassRoom) {
+        NSLog(@"%@ %@", fellow.firstName, fellow.lastName);
+    }
     
     return YES;
 }
