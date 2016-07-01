@@ -15,6 +15,7 @@
 		787F25381D258E9400F8923B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787F25361D258E9400F8923B /* LaunchScreen.storyboard */; };
 		787F25431D258E9400F8923B /* BlockHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F25421D258E9400F8923B /* BlockHomeworkTests.m */; };
 		787F254E1D258E9400F8923B /* BlockHomeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F254D1D258E9400F8923B /* BlockHomeworkUITests.m */; };
+		787F255D1D258EC700F8923B /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F255C1D258EC700F8923B /* Patient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		787F25491D258E9400F8923B /* BlockHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		787F254D1D258E9400F8923B /* BlockHomeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockHomeworkUITests.m; sourceTree = "<group>"; };
 		787F254F1D258E9400F8923B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787F255B1D258EC700F8923B /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		787F255C1D258EC700F8923B /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				787F252B1D258E9400F8923B /* AppDelegate.h */,
 				787F252C1D258E9400F8923B /* AppDelegate.m */,
+				787F255B1D258EC700F8923B /* Patient.h */,
+				787F255C1D258EC700F8923B /* Patient.m */,
 				787F252E1D258E9400F8923B /* ViewController.h */,
 				787F252F1D258E9400F8923B /* ViewController.m */,
 				787F25311D258E9400F8923B /* Main.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				787F25301D258E9400F8923B /* ViewController.m in Sources */,
+				787F255D1D258EC700F8923B /* Patient.m in Sources */,
 				787F252D1D258E9400F8923B /* AppDelegate.m in Sources */,
 				787F252A1D258E9400F8923B /* main.m in Sources */,
 			);

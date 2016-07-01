@@ -7,17 +7,57 @@
 //
 
 #import "AppDelegate.h"
+#import "Patient.h"
 
 @interface AppDelegate ()
 
+@property (strong,nonatomic) NSArray *patientArray;
+
 @end
+
+typedef NSString * (^TestBlockParam)(NSString * str);
+typedef  void (^PatientBlock)(Patient * patient);
+
+#define MIN_TEMP 35.f
+#define MAX_TEMP 42.f
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+
+/* Patient treat block */
+    
+    PatientBlock doctorsBlock =^ (Patient * patient) {
+        
+        if (patient.temperature < 36.9f) {
+            [patient takePill];
+        } else if (patient.temperature >= 36.9f ) {
+            [patient makeShot];
+        }
+    };
+    
+    Patient* patient1 = [Patient paitentWithName:@"Vova" temperature:36.5f andBlock:doctorsBlock];
+    
+    Patient* patient2 = [Patient paitentWithName:@"Petya" temperature:40.2f andBlock:doctorsBlock];
+    
+    Patient* patient3 = [Patient paitentWithName:@"Dima" temperature:42.0f andBlock:doctorsBlock];
+    
+    Patient* patient4 = [Patient paitentWithName:@"Sasha" temperature:35.5f andBlock:doctorsBlock];
+    
+    _patientArray = @[patient1, patient2, patient3, patient4];
+    
+    
+    
     return YES;
+}
+
+- (float)randFloatMin:(float)low andMax:(float)high {
+    float diff = high - low;
+    float new = (((float) rand() / RAND_MAX) * diff) + low;
+    return round(10 * new) / 10;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
