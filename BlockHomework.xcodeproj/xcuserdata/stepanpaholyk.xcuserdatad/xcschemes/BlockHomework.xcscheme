@@ -14,7 +14,11 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "787F25241D258E9400F8923B"
+=======
+               BlueprintIdentifier = "78F81E041D22CFCC00E52528"
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
                BuildableName = "BlockHomework.app"
                BlueprintName = "BlockHomework"
                ReferencedContainer = "container:BlockHomework.xcodeproj">
@@ -32,7 +36,11 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "787F253D1D258E9400F8923B"
+=======
+               BlueprintIdentifier = "78F81E1D1D22CFCC00E52528"
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
                BuildableName = "BlockHomeworkTests.xctest"
                BlueprintName = "BlockHomeworkTests"
                ReferencedContainer = "container:BlockHomework.xcodeproj">
@@ -42,7 +50,11 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "787F25481D258E9400F8923B"
+=======
+               BlueprintIdentifier = "78F81E281D22CFCC00E52528"
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
                BuildableName = "BlockHomeworkUITests.xctest"
                BlueprintName = "BlockHomeworkUITests"
                ReferencedContainer = "container:BlockHomework.xcodeproj">
@@ -52,7 +64,11 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "787F25241D258E9400F8923B"
+=======
+            BlueprintIdentifier = "78F81E041D22CFCC00E52528"
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
             BuildableName = "BlockHomework.app"
             BlueprintName = "BlockHomework"
             ReferencedContainer = "container:BlockHomework.xcodeproj">
@@ -75,7 +91,11 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "787F25241D258E9400F8923B"
+=======
+            BlueprintIdentifier = "78F81E041D22CFCC00E52528"
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
             BuildableName = "BlockHomework.app"
             BlueprintName = "BlockHomework"
             ReferencedContainer = "container:BlockHomework.xcodeproj">
@@ -94,7 +114,11 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "787F25241D258E9400F8923B"
+=======
+            BlueprintIdentifier = "78F81E041D22CFCC00E52528"
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
             BuildableName = "BlockHomework.app"
             BlueprintName = "BlockHomework"
             ReferencedContainer = "container:BlockHomework.xcodeproj">

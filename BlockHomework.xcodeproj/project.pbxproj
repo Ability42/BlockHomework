@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		787F252A1D258E9400F8923B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F25291D258E9400F8923B /* main.m */; };
 		787F252D1D258E9400F8923B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F252C1D258E9400F8923B /* AppDelegate.m */; };
 		787F25301D258E9400F8923B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F252F1D258E9400F8923B /* ViewController.m */; };
@@ -31,11 +32,38 @@
 			containerPortal = 787F251D1D258E9400F8923B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 787F25241D258E9400F8923B;
+=======
+		78A2FE761D22F83400188511 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A2FE751D22F83400188511 /* Student.m */; };
+		78F81E0A1D22CFCC00E52528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F81E091D22CFCC00E52528 /* main.m */; };
+		78F81E0D1D22CFCC00E52528 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F81E0C1D22CFCC00E52528 /* AppDelegate.m */; };
+		78F81E101D22CFCC00E52528 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F81E0F1D22CFCC00E52528 /* ViewController.m */; };
+		78F81E131D22CFCC00E52528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F81E111D22CFCC00E52528 /* Main.storyboard */; };
+		78F81E151D22CFCC00E52528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F81E141D22CFCC00E52528 /* Assets.xcassets */; };
+		78F81E181D22CFCC00E52528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F81E161D22CFCC00E52528 /* LaunchScreen.storyboard */; };
+		78F81E231D22CFCC00E52528 /* BlockHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F81E221D22CFCC00E52528 /* BlockHomeworkTests.m */; };
+		78F81E2E1D22CFCC00E52528 /* BlockHomeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F81E2D1D22CFCC00E52528 /* BlockHomeworkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78F81E1F1D22CFCC00E52528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78F81DFD1D22CFCC00E52528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F81E041D22CFCC00E52528;
+			remoteInfo = BlockHomework;
+		};
+		78F81E2A1D22CFCC00E52528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78F81DFD1D22CFCC00E52528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F81E041D22CFCC00E52528;
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			remoteInfo = BlockHomework;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		787F25251D258E9400F8923B /* BlockHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		787F25291D258E9400F8923B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		787F252B1D258E9400F8923B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,20 +86,52 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		787F25221D258E9400F8923B /* Frameworks */ = {
+=======
+		78A2FE741D22F83400188511 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		78A2FE751D22F83400188511 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		78F81E051D22CFCC00E52528 /* BlockHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F81E091D22CFCC00E52528 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78F81E0B1D22CFCC00E52528 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78F81E0C1D22CFCC00E52528 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78F81E0E1D22CFCC00E52528 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78F81E0F1D22CFCC00E52528 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78F81E121D22CFCC00E52528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78F81E141D22CFCC00E52528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78F81E171D22CFCC00E52528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78F81E191D22CFCC00E52528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F81E1E1D22CFCC00E52528 /* BlockHomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockHomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F81E221D22CFCC00E52528 /* BlockHomeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockHomeworkTests.m; sourceTree = "<group>"; };
+		78F81E241D22CFCC00E52528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F81E291D22CFCC00E52528 /* BlockHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F81E2D1D22CFCC00E52528 /* BlockHomeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockHomeworkUITests.m; sourceTree = "<group>"; };
+		78F81E2F1D22CFCC00E52528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78F81E021D22CFCC00E52528 /* Frameworks */ = {
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		787F253B1D258E9400F8923B /* Frameworks */ = {
+=======
+		78F81E1B1D22CFCC00E52528 /* Frameworks */ = {
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		787F25461D258E9400F8923B /* Frameworks */ = {
+=======
+		78F81E261D22CFCC00E52528 /* Frameworks */ = {
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,6 +141,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		787F251C1D258E9400F8923B = {
 			isa = PBXGroup;
 			children = (
@@ -97,10 +158,29 @@
 				787F25251D258E9400F8923B /* BlockHomework.app */,
 				787F253E1D258E9400F8923B /* BlockHomeworkTests.xctest */,
 				787F25491D258E9400F8923B /* BlockHomeworkUITests.xctest */,
+=======
+		78F81DFC1D22CFCC00E52528 = {
+			isa = PBXGroup;
+			children = (
+				78F81E071D22CFCC00E52528 /* BlockHomework */,
+				78F81E211D22CFCC00E52528 /* BlockHomeworkTests */,
+				78F81E2C1D22CFCC00E52528 /* BlockHomeworkUITests */,
+				78F81E061D22CFCC00E52528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78F81E061D22CFCC00E52528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78F81E051D22CFCC00E52528 /* BlockHomework.app */,
+				78F81E1E1D22CFCC00E52528 /* BlockHomeworkTests.xctest */,
+				78F81E291D22CFCC00E52528 /* BlockHomeworkUITests.xctest */,
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		787F25271D258E9400F8923B /* BlockHomework */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,32 +195,71 @@
 				787F25361D258E9400F8923B /* LaunchScreen.storyboard */,
 				787F25391D258E9400F8923B /* Info.plist */,
 				787F25281D258E9400F8923B /* Supporting Files */,
+=======
+		78F81E071D22CFCC00E52528 /* BlockHomework */ = {
+			isa = PBXGroup;
+			children = (
+				78F81E0B1D22CFCC00E52528 /* AppDelegate.h */,
+				78F81E0C1D22CFCC00E52528 /* AppDelegate.m */,
+				78A2FE741D22F83400188511 /* Student.h */,
+				78A2FE751D22F83400188511 /* Student.m */,
+				78F81E0E1D22CFCC00E52528 /* ViewController.h */,
+				78F81E0F1D22CFCC00E52528 /* ViewController.m */,
+				78F81E111D22CFCC00E52528 /* Main.storyboard */,
+				78F81E141D22CFCC00E52528 /* Assets.xcassets */,
+				78F81E161D22CFCC00E52528 /* LaunchScreen.storyboard */,
+				78F81E191D22CFCC00E52528 /* Info.plist */,
+				78F81E081D22CFCC00E52528 /* Supporting Files */,
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			);
 			path = BlockHomework;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		787F25281D258E9400F8923B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				787F25291D258E9400F8923B /* main.m */,
+=======
+		78F81E081D22CFCC00E52528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78F81E091D22CFCC00E52528 /* main.m */,
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		787F25411D258E9400F8923B /* BlockHomeworkTests */ = {
 			isa = PBXGroup;
 			children = (
 				787F25421D258E9400F8923B /* BlockHomeworkTests.m */,
 				787F25441D258E9400F8923B /* Info.plist */,
+=======
+		78F81E211D22CFCC00E52528 /* BlockHomeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				78F81E221D22CFCC00E52528 /* BlockHomeworkTests.m */,
+				78F81E241D22CFCC00E52528 /* Info.plist */,
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			);
 			path = BlockHomeworkTests;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		787F254C1D258E9400F8923B /* BlockHomeworkUITests */ = {
 			isa = PBXGroup;
 			children = (
 				787F254D1D258E9400F8923B /* BlockHomeworkUITests.m */,
 				787F254F1D258E9400F8923B /* Info.plist */,
+=======
+		78F81E2C1D22CFCC00E52528 /* BlockHomeworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78F81E2D1D22CFCC00E52528 /* BlockHomeworkUITests.m */,
+				78F81E2F1D22CFCC00E52528 /* Info.plist */,
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			);
 			path = BlockHomeworkUITests;
 			sourceTree = "<group>";
@@ -148,6 +267,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
 		787F25241D258E9400F8923B /* BlockHomework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 787F25521D258E9400F8923B /* Build configuration list for PBXNativeTarget "BlockHomework" */;
@@ -155,6 +275,15 @@
 				787F25211D258E9400F8923B /* Sources */,
 				787F25221D258E9400F8923B /* Frameworks */,
 				787F25231D258E9400F8923B /* Resources */,
+=======
+		78F81E041D22CFCC00E52528 /* BlockHomework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F81E321D22CFCC00E52528 /* Build configuration list for PBXNativeTarget "BlockHomework" */;
+			buildPhases = (
+				78F81E011D22CFCC00E52528 /* Sources */,
+				78F81E021D22CFCC00E52528 /* Frameworks */,
+				78F81E031D22CFCC00E52528 /* Resources */,
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			);
 			buildRules = (
 			);
@@ -162,6 +291,7 @@
 			);
 			name = BlockHomework;
 			productName = BlockHomework;
+<<<<<<< HEAD
 			productReference = 787F25251D258E9400F8923B /* BlockHomework.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -172,10 +302,23 @@
 				787F253A1D258E9400F8923B /* Sources */,
 				787F253B1D258E9400F8923B /* Frameworks */,
 				787F253C1D258E9400F8923B /* Resources */,
+=======
+			productReference = 78F81E051D22CFCC00E52528 /* BlockHomework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78F81E1D1D22CFCC00E52528 /* BlockHomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F81E351D22CFCC00E52528 /* Build configuration list for PBXNativeTarget "BlockHomeworkTests" */;
+			buildPhases = (
+				78F81E1A1D22CFCC00E52528 /* Sources */,
+				78F81E1B1D22CFCC00E52528 /* Frameworks */,
+				78F81E1C1D22CFCC00E52528 /* Resources */,
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 				787F25401D258E9400F8923B /* PBXTargetDependency */,
 			);
 			name = BlockHomeworkTests;
@@ -190,26 +333,55 @@
 				787F25451D258E9400F8923B /* Sources */,
 				787F25461D258E9400F8923B /* Frameworks */,
 				787F25471D258E9400F8923B /* Resources */,
+=======
+				78F81E201D22CFCC00E52528 /* PBXTargetDependency */,
+			);
+			name = BlockHomeworkTests;
+			productName = BlockHomeworkTests;
+			productReference = 78F81E1E1D22CFCC00E52528 /* BlockHomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78F81E281D22CFCC00E52528 /* BlockHomeworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F81E381D22CFCC00E52528 /* Build configuration list for PBXNativeTarget "BlockHomeworkUITests" */;
+			buildPhases = (
+				78F81E251D22CFCC00E52528 /* Sources */,
+				78F81E261D22CFCC00E52528 /* Frameworks */,
+				78F81E271D22CFCC00E52528 /* Resources */,
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 				787F254B1D258E9400F8923B /* PBXTargetDependency */,
 			);
 			name = BlockHomeworkUITests;
 			productName = BlockHomeworkUITests;
 			productReference = 787F25491D258E9400F8923B /* BlockHomeworkUITests.xctest */;
+=======
+				78F81E2B1D22CFCC00E52528 /* PBXTargetDependency */,
+			);
+			name = BlockHomeworkUITests;
+			productName = BlockHomeworkUITests;
+			productReference = 78F81E291D22CFCC00E52528 /* BlockHomeworkUITests.xctest */;
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+<<<<<<< HEAD
 		787F251D1D258E9400F8923B /* Project object */ = {
+=======
+		78F81DFD1D22CFCC00E52528 /* Project object */ = {
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Stepan Paholyk";
 				TargetAttributes = {
+<<<<<<< HEAD
 					787F25241D258E9400F8923B = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -224,6 +396,22 @@
 				};
 			};
 			buildConfigurationList = 787F25201D258E9400F8923B /* Build configuration list for PBXProject "BlockHomework" */;
+=======
+					78F81E041D22CFCC00E52528 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					78F81E1D1D22CFCC00E52528 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 78F81E041D22CFCC00E52528;
+					};
+					78F81E281D22CFCC00E52528 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 78F81E041D22CFCC00E52528;
+					};
+				};
+			};
+			buildConfigurationList = 78F81E001D22CFCC00E52528 /* Build configuration list for PBXProject "BlockHomework" */;
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,6 +419,7 @@
 				en,
 				Base,
 			);
+<<<<<<< HEAD
 			mainGroup = 787F251C1D258E9400F8923B;
 			productRefGroup = 787F25261D258E9400F8923B /* Products */;
 			projectDirPath = "";
@@ -239,11 +428,22 @@
 				787F25241D258E9400F8923B /* BlockHomework */,
 				787F253D1D258E9400F8923B /* BlockHomeworkTests */,
 				787F25481D258E9400F8923B /* BlockHomeworkUITests */,
+=======
+			mainGroup = 78F81DFC1D22CFCC00E52528;
+			productRefGroup = 78F81E061D22CFCC00E52528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78F81E041D22CFCC00E52528 /* BlockHomework */,
+				78F81E1D1D22CFCC00E52528 /* BlockHomeworkTests */,
+				78F81E281D22CFCC00E52528 /* BlockHomeworkUITests */,
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+<<<<<<< HEAD
 		787F25231D258E9400F8923B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,13 +455,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		787F253C1D258E9400F8923B /* Resources */ = {
+=======
+		78F81E031D22CFCC00E52528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F81E181D22CFCC00E52528 /* LaunchScreen.storyboard in Resources */,
+				78F81E151D22CFCC00E52528 /* Assets.xcassets in Resources */,
+				78F81E131D22CFCC00E52528 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F81E1C1D22CFCC00E52528 /* Resources */ = {
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		787F25471D258E9400F8923B /* Resources */ = {
+=======
+		78F81E271D22CFCC00E52528 /* Resources */ = {
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -271,6 +488,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
 		787F25211D258E9400F8923B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,12 +513,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				787F254E1D258E9400F8923B /* BlockHomeworkUITests.m in Sources */,
+=======
+		78F81E011D22CFCC00E52528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F81E101D22CFCC00E52528 /* ViewController.m in Sources */,
+				78F81E0D1D22CFCC00E52528 /* AppDelegate.m in Sources */,
+				78F81E0A1D22CFCC00E52528 /* main.m in Sources */,
+				78A2FE761D22F83400188511 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F81E1A1D22CFCC00E52528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F81E231D22CFCC00E52528 /* BlockHomeworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F81E251D22CFCC00E52528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F81E2E1D22CFCC00E52528 /* BlockHomeworkUITests.m in Sources */,
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+<<<<<<< HEAD
 		787F25401D258E9400F8923B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 787F25241D258E9400F8923B /* BlockHomework */;
@@ -310,22 +555,47 @@
 			isa = PBXTargetDependency;
 			target = 787F25241D258E9400F8923B /* BlockHomework */;
 			targetProxy = 787F254A1D258E9400F8923B /* PBXContainerItemProxy */;
+=======
+		78F81E201D22CFCC00E52528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F81E041D22CFCC00E52528 /* BlockHomework */;
+			targetProxy = 78F81E1F1D22CFCC00E52528 /* PBXContainerItemProxy */;
+		};
+		78F81E2B1D22CFCC00E52528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F81E041D22CFCC00E52528 /* BlockHomework */;
+			targetProxy = 78F81E2A1D22CFCC00E52528 /* PBXContainerItemProxy */;
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+<<<<<<< HEAD
 		787F25311D258E9400F8923B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				787F25321D258E9400F8923B /* Base */,
+=======
+		78F81E111D22CFCC00E52528 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78F81E121D22CFCC00E52528 /* Base */,
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		787F25361D258E9400F8923B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				787F25371D258E9400F8923B /* Base */,
+=======
+		78F81E161D22CFCC00E52528 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78F81E171D22CFCC00E52528 /* Base */,
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -333,7 +603,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
 		787F25501D258E9400F8923B /* Debug */ = {
+=======
+		78F81E301D22CFCC00E52528 /* Debug */ = {
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +651,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		787F25511D258E9400F8923B /* Release */ = {
+=======
+		78F81E311D22CFCC00E52528 /* Release */ = {
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -415,7 +693,11 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		787F25531D258E9400F8923B /* Debug */ = {
+=======
+		78F81E331D22CFCC00E52528 /* Debug */ = {
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -426,7 +708,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		787F25541D258E9400F8923B /* Release */ = {
+=======
+		78F81E341D22CFCC00E52528 /* Release */ = {
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -437,7 +723,11 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		787F25561D258E9400F8923B /* Debug */ = {
+=======
+		78F81E361D22CFCC00E52528 /* Debug */ = {
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -449,7 +739,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		787F25571D258E9400F8923B /* Release */ = {
+=======
+		78F81E371D22CFCC00E52528 /* Release */ = {
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -461,7 +755,11 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		787F25591D258E9400F8923B /* Debug */ = {
+=======
+		78F81E391D22CFCC00E52528 /* Debug */ = {
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = BlockHomeworkUITests/Info.plist;
@@ -472,7 +770,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		787F255A1D258E9400F8923B /* Release */ = {
+=======
+		78F81E3A1D22CFCC00E52528 /* Release */ = {
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = BlockHomeworkUITests/Info.plist;
@@ -486,15 +788,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD
 		787F25201D258E9400F8923B /* Build configuration list for PBXProject "BlockHomework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				787F25501D258E9400F8923B /* Debug */,
 				787F25511D258E9400F8923B /* Release */,
+=======
+		78F81E001D22CFCC00E52528 /* Build configuration list for PBXProject "BlockHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F81E301D22CFCC00E52528 /* Debug */,
+				78F81E311D22CFCC00E52528 /* Release */,
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		787F25521D258E9400F8923B /* Build configuration list for PBXNativeTarget "BlockHomework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -522,4 +833,36 @@
 /* End XCConfigurationList section */
 	};
 	rootObject = 787F251D1D258E9400F8923B /* Project object */;
+=======
+		78F81E321D22CFCC00E52528 /* Build configuration list for PBXNativeTarget "BlockHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F81E331D22CFCC00E52528 /* Debug */,
+				78F81E341D22CFCC00E52528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F81E351D22CFCC00E52528 /* Build configuration list for PBXNativeTarget "BlockHomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F81E361D22CFCC00E52528 /* Debug */,
+				78F81E371D22CFCC00E52528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F81E381D22CFCC00E52528 /* Build configuration list for PBXNativeTarget "BlockHomeworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F81E391D22CFCC00E52528 /* Debug */,
+				78F81E3A1D22CFCC00E52528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78F81DFD1D22CFCC00E52528 /* Project object */;
+>>>>>>> 73924f4d40daffdadee2e15c3620c55b1d1d437d
 }
